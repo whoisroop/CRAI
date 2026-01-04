@@ -5,6 +5,15 @@ The model training uses the open Donate-a-Cry corpus: https://github.com/gveres/
 
 This repository contains a Flask backend that serves model predictions and a React frontend for the demo UI.
 
+Adding UI snapshots
+-------------------
+1. Start the application:
+<img width="1862" height="930" alt="image" src="https://github.com/user-attachments/assets/d5eab34f-e700-4831-aea1-ebdbc0ccc6ad" />
+2. Open UI:
+<img width="1862" height="845" alt="image" src="https://github.com/user-attachments/assets/049ccaa8-fe84-4c6a-a878-050beefbb755" />
+3. Select & upload audio file, click on analyze:
+<img width="1866" height="848" alt="image" src="https://github.com/user-attachments/assets/92636fa5-0c99-45de-863b-4670996a1e86" />
+
 Directories
 -----------
 - `react project/backend/` — Flask backend, preprocessing scripts and model artifacts
@@ -42,10 +51,6 @@ Quickstart
 		 npm install
 		 npm start
 		 ```
-
-Adding UI snapshots
--------------------
-Place screenshots in `react project/frontend/public/snapshots/`. The React demo includes a small gallery component that reads images from that directory.
 
 Training and dataset
 --------------------
