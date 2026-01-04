@@ -235,7 +235,7 @@ const Homepage=() => {
             </div>
             <div className="services-content">
               <h4 className="services-title">             
-              <a href="/predict">Baby Cry Analysis</a>
+              <a href="/predict">CR(AI) Analysis</a>
               </h4>
               <p className="text">
                 Why is your sweet one crying? <br/>Allow us to assist you <br/>figure out the reason behind the tears!
